@@ -1,0 +1,124 @@
+.card {
+  position: relative;
+  padding: 30px 20px 20px 25px;
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.card:not(:last-child) {
+  margin-right: 30px;
+}
+
+.card__image {
+  margin-bottom: 15px;
+}
+
+.card__title {
+  margin-bottom: 5px;
+}
+
+.card__subtitle p {
+  margin-bottom: 15px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12.8px;
+  line-height: 19px;
+  color: #7b7b7b;
+}
+
+.card__description p {
+  margin: 0;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7b7b7b;
+}
+
+.card__number p {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 73px;
+  color: #efefef;
+}
+
+.card__blog {
+  padding: 15px 15px 30px 15px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.card__blog:not(:last-child) {
+  margin-right: 30px;
+}
+
+.card__blog__image {
+  margin-bottom: 15px;
+}
+
+.card__blog__title h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #373737;
+  margin-bottom: 15px;
+}
+
+.card__blog__date {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+
+.card__blog__date__item {
+  display: flex;
+  align-items: center;
+
+}
+
+.card__blog__date__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.card__blog__date__item svg {
+  object-fit: cover;
+  margin-right: 5px;
+}
+
+.card__blog__date__item p {
+  font-size: 11px;
+  line-height: 19px;
+  color: #373737;
+}
+
+.card__blog__description h6 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7B7B7B;
+  margin-bottom: 25px;
+}
+
+.card__blog__button button {
+  padding: 10px 22px;
+  background: #ff5300;
+  border-radius: 5px;
+  border-color: #ff5300;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  filter: drop-shadow(4px 5px 15px rgba(255, 83, 0, 0.1));
+}

@@ -1,0 +1,62 @@
+.project__nav {
+  margin-bottom: 30px;
+}
+
+.project__nav nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.project__nav li a {
+  text-decoration: none;
+  background: transparent;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #7b7b7b;
+}
+
+.project__nav li a:hover {
+  background: #ff5300;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 15px 20px;
+}
+
+.project__image__item {
+  display: inline-block;
+  position: relative;
+  max-width: 380px;
+  height: auto;
+}
+
+.project__image__hover {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 35px;
+  background: rgba(255, 83, 0, 0.75);
+  opacity: 0;
+  top: 42px;
+  left: 62px;
+
+  svg {
+  }
+
+  h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #ffffff;
+  }
+}
+
+.project__image__hover:hover {
+  opacity: 75%;
+}
