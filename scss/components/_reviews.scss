@@ -1,0 +1,89 @@
+.reviews {
+  position: relative;
+  padding: 27px 25px 24px 25px;
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.reviews:not(:last-child) {
+  margin-right: 30px;
+}
+
+.reviews__stars {
+  margin-bottom: 14px;
+}
+
+.reviews__text {
+  margin-bottom: 25px;
+}
+
+.reviews__human {
+  display: flex;
+}
+
+.reviews__human__image {
+  margin-right: 15px;
+}
+
+.reviews__human__name h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ff5300;
+}
+
+.reviews__human__name p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12.8px;
+  line-height: 19px;
+  color: #7b7b7b;
+}
+
+.reviews__qoutes {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
+
+.reviews__arrow__left {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: calc(0% - 75px);
+}
+
+.reviews__arrow__left:hover {
+  cursor: pointer;
+}
+
+.reviews__arrow__left:hover svg path {
+  fill: #ff5300;
+}
+.reviews__arrow__left:hover svg circle {
+  stroke: #ff5300;
+}
+
+.reviews__arrow__right {
+  position: absolute;
+  border: none;
+  background: transparent;
+  top: 50%;
+  transform: translateY(-50%);
+  right: calc(0% - 45px);
+}
+
+.reviews__arrow__right:hover {
+  cursor: pointer;
+}
+
+.reviews__arrow__right:hover svg path {
+  fill: #ff5300;
+}
+.reviews__arrow__right:hover svg circle {
+  stroke: #ff5300;
+}

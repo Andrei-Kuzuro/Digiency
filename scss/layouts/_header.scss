@@ -1,0 +1,54 @@
+header {
+  position: absolute;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  margin: 30px 0;
+  align-items: baseline;
+}
+
+.header__logo {
+  margin-right: 140px;
+}
+
+.header__nav__menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.header__nav__menu ul li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.header__nav__menu ul li a {
+  text-decoration: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #373737;
+}
+
+.header__nav__menu ul li a:hover {
+  color: #ff5300;
+}
+
+.header__burger__menu {
+  margin-left: auto;
+}
+
+.header__burger__menu button {
+  padding: 10px 22px;
+  border: 1px solid #373737;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: transparent;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #373737;
+}
